@@ -14,7 +14,7 @@ Below that should be some kind of graphic that shows nearby user events
     Each planet/fish can be clicked on to go to the event, sizes depend on attendees
 Below that should be some cards with marketing
 Sidebar can be to highlight events for people who want front page exposure -->
-
 @section('content')
-    <example-component></example-component>
+<div>This is a test</div>
+    
 @endsection
