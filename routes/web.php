@@ -18,7 +18,7 @@ Route::get('/profile', 'PublicController@profile')->name('profile');
 
 Route::get('/events', 'PublicController@events')->name('events');
 
-Route::get('/contact', 'PublicController@events')->name('contact');
+Route::get('/contact', 'PublicController@contact')->name('contact');
 
 
 // These routes require authentication and re-route to a login page when access is attempted

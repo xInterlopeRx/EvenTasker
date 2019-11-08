@@ -78,8 +78,13 @@
             @yield('content')
         </main>
     </div>
-    <footer class="container">
+    <footer class="footer fixed-bottom">
+        <div class="container d-flex center" >
+            <a class="pr-10" href="{{ route('contact') }}">{{ __('Contact') }}</a>
+            <a class="pr-10" href="{{ route('profile') }}">{{ __('Profile') }}</a>
+
         <div>This is the footer</div>
+    </div>
     </footer>
 </body>
 </html>
