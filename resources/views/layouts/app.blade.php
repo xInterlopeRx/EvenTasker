@@ -78,5 +78,8 @@
             @yield('content')
         </main>
     </div>
+    <footer class="container">
+        <div>This is the footer</div>
+    </footer>
 </body>
 </html>

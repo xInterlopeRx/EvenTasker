@@ -24,6 +24,6 @@ Route::get('/contact', 'PublicController@events')->name('contact');
 // These routes require authentication and re-route to a login page when access is attempted
 Auth::routes();
 
-Route::get('/home', 'PrivateController@index')->name('home');
+Route::get('/dashboard', 'PrivateController@dashboard')->name('dashboard');
 
 
