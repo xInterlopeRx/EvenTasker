@@ -15,6 +15,6 @@ Below that should be some kind of graphic that shows nearby user events
 Below that should be some cards with marketing
 Sidebar can be to highlight events for people who want front page exposure -->
 @section('content')
-<div>This is a test</div>
+<div>This is the splash page</div>
     
 @endsection

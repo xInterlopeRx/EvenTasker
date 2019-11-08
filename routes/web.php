@@ -16,3 +16,5 @@ Route::get('/', 'SplashController@index')->name('splash');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/profile', 'ProfilesController@index')->name('profile');
+Route::get('/events', 'EventsController@index')->name('events');
