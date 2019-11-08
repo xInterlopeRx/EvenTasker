@@ -16,5 +16,10 @@ Below that should be some cards with marketing
 Sidebar can be to highlight events for people who want front page exposure -->
 @section('content')
 <div>This is the splash page</div>
+{{-- Get date and current location
+query database for events happening soon that are close by
+create objects that represent those events
+make those objects a link to the event pages
+Show events in an artsy graphic  --}}
     
 @endsection

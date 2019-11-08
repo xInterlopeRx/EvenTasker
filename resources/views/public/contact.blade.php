@@ -1,5 +1,6 @@
 @extends('layouts.app')
+
 @section('content')
-<div>This is the profile page</div>
+<div>This is the contact page</div>
     
 @endsection

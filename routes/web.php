@@ -11,10 +11,19 @@
 |
 */
 
-Route::get('/', 'SplashController@index')->name('splash');
+// These routes can be access without authentication
+Route::get('/', 'PublicController@splash')->name('splash');
 
+Route::get('/profile', 'PublicController@profile')->name('profile');
+
+Route::get('/events', 'PublicController@events')->name('events');
+
+Route::get('/contact', 'PublicController@events')->name('contact');
+
+
+// These routes require authentication and re-route to a login page when access is attempted
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/profile', 'ProfilesController@index')->name('profile');
-Route::get('/events', 'EventsController@index')->name('events');
+Route::get('/home', 'PrivateController@index')->name('home');
+
+
